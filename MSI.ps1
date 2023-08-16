@@ -4,4 +4,3 @@ $dest = "c:\ProgramData\installer.msi"
 
 # Download file
 Start-BitsTransfer -Source $url -Destination $dest 
-
