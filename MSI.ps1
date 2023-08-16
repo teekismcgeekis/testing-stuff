@@ -4,5 +4,4 @@ $dest = "c:\ProgramData\installer.msi"
 
 # Download file
 Start-BitsTransfer -Source $url -Destination $dest 
-Start-Sleep -Seconds 60
-Start-Process -FilePath "msiexec.exe" -ArgumentList "/i $out /quiet /norestart /l c:\installlog.txt"
+
